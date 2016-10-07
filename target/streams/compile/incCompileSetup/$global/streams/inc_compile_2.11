@@ -20,18 +20,18 @@ name hashing:
 0 -> true
 products:
 7 items
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$1.class
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$2.class
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$3.class
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$4.class
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$main$1.class
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$.class
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize.class
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$1.class
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$2.class
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$3.class
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$4.class
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$main$1.class
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$.class
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize.class
 binary dependencies:
 3 items
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /Users/smaxwell-stewart/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /Users/smaxwell-stewart/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -50,98 +50,107 @@ inheritance external dependencies:
 0 items
 class names:
 7 items
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize$
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize$$anonfun$1
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize$$anonfun$2
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize$$anonfun$3
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize$$anonfun$4
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize$$anonfun$main$1
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize.Sessionize
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize.Sessionize$
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize.Sessionize$$anonfun$1
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize.Sessionize$$anonfun$2
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize.Sessionize$$anonfun$3
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize.Sessionize$$anonfun$4
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize.Sessionize$$anonfun$main$1
 used names:
-71 items
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> &&
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> +
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> /
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> <init>
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> ==
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> AnyRef
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Array
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Boolean
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> ClassTag
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Date
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Int
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Integer
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Ordering
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Predef
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> RDD
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Sessionize
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> SimpleDateFormat
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> SparkConf
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> SparkContext
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> String
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> Unit
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> a
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> after
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> aggHits
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> apache
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> apply
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> b
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> before
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> cache
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> collect
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> conf
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> contains
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> dateformat
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> end
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> filter
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> foreach
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> format
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> inWindow
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> java
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> lang
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> line
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> logData
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> logFile
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> map
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> materializeClassTag
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> math
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> org
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> package
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> parse
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> parseInt
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> parseTime
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> parts
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> println
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> rdd
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> rddToPairRDDFunctions
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> reduceByKey
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> refArrayOps
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> sc
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> scala
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> setAppName
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> spark
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> split
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> start
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> substring
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> t
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> text
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> textFile
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> timeString
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> util
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> validRequest
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> valueOf
+80 items
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> &&
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> +
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> /
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> <init>
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> ==
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> AnyRef
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Array
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Boolean
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> ClassTag
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Date
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> File
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Int
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Integer
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Ordering
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Predef
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> PrintWriter
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> RDD
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Sessionize
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> SimpleDateFormat
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> SparkConf
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> SparkContext
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> String
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> Unit
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> _1
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> _2
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> a
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> after
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> aggHits
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> apache
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> apply
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> augmentString
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> b
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> before
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> cache
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> close
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> collect
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> conf
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> contains
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> dateformat
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> end
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> filter
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> foreach
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> format
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> inWindow
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> io
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> java
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> lang
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> line
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> logData
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> logFile
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> map
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> materializeClassTag
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> math
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> org
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> out
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> package
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> parse
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> parseInt
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> parseTime
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> parts
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> println
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> rdd
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> rddToPairRDDFunctions
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> reduceByKey
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> refArrayOps
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sc
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> scala
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> sessionize
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> setAppName
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> spark
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> split
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> start
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> substring
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> t
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> text
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> textFile
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> timeString
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> util
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> validRequest
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> valueOf
 product stamps:
 7 items
-/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$1.class -> lastModified(1475584009000)
-/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$2.class -> lastModified(1475584009000)
-/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$3.class -> lastModified(1475584009000)
-/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$4.class -> lastModified(1475584009000)
-/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$$anonfun$main$1.class -> lastModified(1475584009000)
-/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize$.class -> lastModified(1475584009000)
-/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/Sessionize.class -> lastModified(1475584009000)
+/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$1.class -> lastModified(1475842478000)
+/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$2.class -> lastModified(1475842478000)
+/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$3.class -> lastModified(1475842478000)
+/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$4.class -> lastModified(1475842478000)
+/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$$anonfun$main$1.class -> lastModified(1475842478000)
+/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize$.class -> lastModified(1475842478000)
+/Users/smaxwell-stewart/workspace/scala/paytm/target/scala-2.11/classes/sessionize/Sessionize.class -> lastModified(1475842478000)
 source stamps:
 1 items
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> hash(887391e57b00116ddf86a11c5649265a3121af0c)
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> hash(f862a2c8479fcff188192c6761dc2ac4e2018be3)
 binary stamps:
 3 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1459485740000)
@@ -150,20 +159,20 @@ binary stamps:
 class names:
 3 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
-/Users/smaxwell-stewart/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar -> org.apache.spark.rdd.PairRDDFunctions
-/Users/smaxwell-stewart/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Int
+/Users/smaxwell-stewart/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar -> org.apache.spark.SparkConf
+/Users/smaxwell-stewart/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.collection.IndexedSeqOptimized
 internal apis:
 1 items
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHACqv9PAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAG3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOa6u+J0AAhpbldpbmRvd3NxAH4ADPumRQp0AAZub3RpZnlzcQB+AAxoSTIrdAAGd2luZG93c3EAfgAMgE3eR3QADHZhbGlkUmVxdWVzdHNxAH4ADKbDoGZ0AAR3YWl0c3EAfgAMW7iTeHQADSRhc0luc3RhbmNlT2ZzcQB+AAwiZSmWdAAGZXF1YWxzc3EAfgAMJPBH+HQACXBhcnNlVGltZXNxAH4ADMzQvEB0AAxhc0luc3RhbmNlT2ZzcQB+AAyP4ah0dAAMc3luY2hyb25pemVkc3EAfgAMCIjCcXQADSRpc0luc3RhbmNlT2ZzcQB+AAyj6ICxdAAEbWFpbnNxAH4ADJDi9jx0AAlub3RpZnlBbGxzcQB+AAyH6Y/tdAAMaXNJbnN0YW5jZU9mc3EAfgAMX1XuAXQACmRhdGVmb3JtYXRzcQB+AAyiI+O/dAACPT1zcQB+AAw3QgpxdAAFY2xvbmVzcQB+AAyLR+Q8dAAIdG9TdHJpbmdzcQB+AAzYWBNQdAACIT1zcQB+AAyLEN4LdAAIZ2V0Q2xhc3NzcQB+AAzDrSErdAAKU2Vzc2lvbml6ZXNxAH4ADMeVhn50AAVzdGFydHNxAH4ADKV5Tlx0AAJuZXNxAH4ADOGUsDp0AAJlcXNxAH4ADIdTDMN0AAIjI3NxAH4ADL4fAkN0AAhmaW5hbGl6ZXNxAH4ADJyVafx0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AN3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBNTAAJaW5oZXJpdGVkcQB+AE1MAAdwYXJlbnRzcQB+AE14cQB+AGlzcQB+AGR1cQB+AEgAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AE5xAH4AV3VxAH4AWAAAAABzcQB+AFoAcQB+ACV1cQB+AFwAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIR1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBxeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBfdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB4WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBoc3EAfgB3dAAFQXJyYXlxAH4AfXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgB3dAAGU3RyaW5nc3EAfgB7c3EAfgB+dXEAfgCBAAAAA3NxAH4Ag3QABGphdmFzcQB+AIN0AARsYW5ncQB+AIhzcQB+AGR1cQB+AEgAAAAAc3EAfgBkdXEAfgCcAAAAAnNxAH4Ad3QABk9iamVjdHEAfgCgc3EAfgB3dAADQW55cQB+AH11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4+pE7x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL1VzZXJzL3NtYXh3ZWxsLXN0ZXdhcnQvd29ya3NwYWNlL3NjYWxhL3BheXRtL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSIc5HlewARbd+GoRxWSSZaMSGvDA==
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBeMQWnAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAG3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLW+ZFB0AAhpbldpbmRvd3NxAH4ADMlGNs10AAZub3RpZnlzcQB+AAzIljBWdAAGd2luZG93c3EAfgAMkNWnE3QADHZhbGlkUmVxdWVzdHNxAH4ADBJlSUh0AAR3YWl0c3EAfgAMOONoSHQADSRhc0luc3RhbmNlT2ZzcQB+AAz2PGJWdAAGZXF1YWxzc3EAfgAMMVpuV3QACXBhcnNlVGltZXNxAH4ADOlAw450AAxhc0luc3RhbmNlT2ZzcQB+AAwVsVy9dAAMc3luY2hyb25pemVkc3EAfgAMwRsmg3QADSRpc0luc3RhbmNlT2ZzcQB+AAw3SCnWdAAEbWFpbnNxAH4ADHqA+s90AAlub3RpZnlBbGxzcQB+AAwlrywXdAAMaXNJbnN0YW5jZU9mc3EAfgAMJp0CxnQACmRhdGVmb3JtYXRzcQB+AAxFaJlrdAACPT1zcQB+AAyDfn9ddAAFY2xvbmVzcQB+AAx2zDqfdAAIdG9TdHJpbmdzcQB+AAw5YL9DdAACIT1zcQB+AAzrrsxVdAAIZ2V0Q2xhc3NzcQB+AAzAK1D7dAAKU2Vzc2lvbml6ZXNxAH4ADK0lrit0AAVzdGFydHNxAH4ADEv47sd0AAJuZXNxAH4ADLFZILl0AAJlcXNxAH4ADCR6rLR0AAIjI3NxAH4ADPxH04Z0AAhmaW5hbGl6ZXNxAH4ADOiiyd50AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABVzZXNzaW9uaXplLlNlc3Npb25pemV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGVzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ATUwACWluaGVyaXRlZHEAfgBNTAAHcGFyZW50c3EAfgBNeHEAfgBqc3EAfgBldXEAfgBIAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBOcQB+AFd1cQB+AFgAAAAAc3EAfgBaAHEAfgAldXEAfgBdAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGl0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCFdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AcnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AYHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AeVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AaXNxAH4AeHQABUFycmF5cQB+AH51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AeHQABlN0cmluZ3NxAH4AfHNxAH4Af3VxAH4AggAAAANzcQB+AIR0AARqYXZhc3EAfgCEdAAEbGFuZ3EAfgCJc3EAfgBldXEAfgBIAAAAAHNxAH4AZXVxAH4AnQAAAAJzcQB+AHh0AAZPYmplY3RxAH4AoXNxAH4AeHQAA0FueXEAfgB+dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAKc2Vzc2lvbml6ZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV58Q/fV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL1VzZXJzL3NtYXh3ZWxsLXN0ZXdhcnQvd29ya3NwYWNlL3NjYWxhL3BheXRtL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT4YqLIR5/P8YgZLGdh3CrE4gGL4w==
 external apis:
 0 items
 source infos:
 1 items
-/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/Sessionize.scala -> 
+/Users/smaxwell-stewart/workspace/scala/paytm/src/main/scala/sessionize/Sessionize.scala -> 
 AAAAAAAAAAA=
 compilations:
-24 items
+28 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV310G4V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4fqNBt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4fsdop1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
@@ -188,3 +197,7 @@ compilations:
 21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4iMvoF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4+o1Rl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4+pE7x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4/T7lZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4/WsYh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4/X76l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV58Q/fV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWF4d2VsbC1zdGV3YXJ0L3dvcmtzcGFjZS9zY2FsYS9wYXl0bS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

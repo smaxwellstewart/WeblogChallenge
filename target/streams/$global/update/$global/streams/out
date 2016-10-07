@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for paytm-project#paytm-project_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fd4385d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77ff40ed[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -7905,6 +7905,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for paytm-project#paytm-project_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -15373,6 +15391,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies paytm-project#paytm-project_2.11;1.0->junit#junit;4.10 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for paytm-project#paytm-project_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for paytm-project#paytm-project_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -15581,11 +15607,13 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.glassfish.jersey.media#jersey-media-jaxb;2.22.2!jersey-media-jaxb.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.6.5!jackson-module-paranamer.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5710ms :: artifacts dl 115ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4991ms :: artifacts dl 81ms[0m
 [0m[[0mdebug[0m] [0m	report for paytm-project#paytm-project_2.11;1.0 compile produced in /Users/smaxwell-stewart/workspace/scala/paytm/target/resolution-cache/reports/paytm-project-paytm-project_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for paytm-project#paytm-project_2.11;1.0 runtime produced in /Users/smaxwell-stewart/workspace/scala/paytm/target/resolution-cache/reports/paytm-project-paytm-project_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for paytm-project#paytm-project_2.11;1.0 test produced in /Users/smaxwell-stewart/workspace/scala/paytm/target/resolution-cache/reports/paytm-project-paytm-project_2.11-test.xml[0m
@@ -15599,7 +15627,7 @@
 [0m[[0mdebug[0m] [0m	report for paytm-project#paytm-project_2.11;1.0 docs produced in /Users/smaxwell-stewart/workspace/scala/paytm/target/resolution-cache/reports/paytm-project-paytm-project_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for paytm-project#paytm-project_2.11;1.0 pom produced in /Users/smaxwell-stewart/workspace/scala/paytm/target/resolution-cache/reports/paytm-project-paytm-project_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for paytm-project#paytm-project_2.11;1.0 scala-tool produced in /Users/smaxwell-stewart/workspace/scala/paytm/target/resolution-cache/reports/paytm-project-paytm-project_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5710ms resolve - 115ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (4991ms resolve - 81ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
 [0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.11.7, 2.11.0, 2.11.1) -> 2.11.8[0m

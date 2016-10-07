@@ -4,7 +4,7 @@
 		module="paytm-project_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161002224908"
+		publication="20161007082908"
 	>
 		<description>
 		Paytm Project
@@ -35,5 +35,6 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.0.0" conf="compile->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.10" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
