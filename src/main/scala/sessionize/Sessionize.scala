@@ -10,9 +10,15 @@ import java.text.SimpleDateFormat
 import java.io._
 
 /*
- * My solution to step 1 of the Paytm Challenge
- * I used a fixed window of 15 minutes and excluded non-get requests
- * 
+ * My solution to step 1 of the Paytm Challenge.
+ * I used a fixed window of 15 minutes and excluded non-GET requests as well as non-OK statuses.
+ * I would have liked to complete much more but as my experience with both Scala and Spark is very
+ * limited I spent a long time setting up environments.
+ * I though you would prefer someone pushing themselves completely into the unknown rather than playing it safe (I have MapReduce experience but wanted to try Spark).
+ * There are unit tests that can be run with Junit.
+ * IMPROVEMENTS:
+ *  - Sessionize by using a timeout period (wasn't sure if this was the actual due to wording)
+ *  - Complete other steps
  * */
 
 
@@ -55,7 +61,7 @@ object Sessionize {
     val end = "2015-07-22T09:15:00.000Z"
     
     
-    // NOTE: wanted to refactor this to put in separate function but ran into type comilation errors
+    // NOTE: wanted to refactor this to put in separate function but ran into scala type comilation errors
     val aggHits = logData
       // only want to look at valid requests
       .filter(line => validRequest(line))
