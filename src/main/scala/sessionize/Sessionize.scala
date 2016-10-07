@@ -52,7 +52,8 @@ object Sessionize {
   }
   
   def main(args: Array[String]) {
-    val logFile = "/Users/smaxwell-stewart/workspace/scala/paytm/sample.log" // Should be some file on your system
+    // IMPORTANT Where i extracted my data to. Change to your local file
+    val logFile = "/Users/smaxwell-stewart/workspace/scala/paytm/sample.log" 
     val conf = new SparkConf().setAppName("Simple Application")
     val sc = new SparkContext(conf)
     val logData = sc.textFile(logFile, 2).cache()
